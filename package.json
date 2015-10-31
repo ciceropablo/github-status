@@ -1,15 +1,34 @@
 {
   "name": "github-status",
   "version": "0.0.0",
-  "description": "GitHub status module.",
+  "description": "A GitHub status module.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint ./*.js",
+    "test": "npm run lint && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ciceropablo/github-status.git"
   },
   "keywords": [
     "github",
     "status"
   ],
-  "author": "Cícero Pablo",
-  "license": "MIT"
+  "author": {
+    "name": "Cícero Pablo",
+    "email": "cicero.pablos@gmail.com",
+    "url": "ciceropablo.github.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ciceropablo/github-status/issues"
+  },
+  "homepage": "https://github.com/ciceropablo/github-status#readme",
+  "dependencies": {
+    "got": "^5.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.3.0"
+  }
 }
