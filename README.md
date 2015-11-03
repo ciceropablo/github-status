@@ -1,4 +1,4 @@
-## github-status
+## github-status [![Build Status](https://travis-ci.org/ciceropablo/github-status.svg)](https://travis-ci.org/ciceropablo/github-status)
 > A module to check GitHub status.
 
 ## Installation
