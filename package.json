@@ -1,11 +1,10 @@
 {
   "name": "github-status",
   "version": "0.0.0",
-  "description": "A GitHub status module.",
+  "description": "A module to check GitHub status.",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ./*.js",
-    "test": "npm run lint && ava"
+    "test": "eslint *.js && ava"
   },
   "repository": {
     "type": "git",
@@ -30,5 +29,8 @@
   },
   "devDependencies": {
     "ava": "^0.3.0"
+  },
+  "engine": {
+    "node": ">=4"
   }
 }
